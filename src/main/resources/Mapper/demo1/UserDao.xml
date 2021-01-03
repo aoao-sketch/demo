@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.aoao.demo.psdemo1.Dao.UserDao">
+    <select id="getAll" resultType="com.aoao.demo.psdemo1.Util.psdemo1" parameterType="java.util.Map">
+        select * from psdemo1;
+    </select>
+</mapper>
